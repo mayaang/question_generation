@@ -1,0 +1,267 @@
+{
+  "version": "v2.0",
+  "data": [
+    {
+      "title": "England footballs",
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "who has the most to lose",
+              "id": "56ddde6b9a695914005b962a",
+              "answers": [
+                {
+                  "text":"w nj",
+                  "answer_start": 82
+                },
+                {
+                  "text":"w nj",
+                  "answer_start": 82
+                }
+              ],
+                "is_impossible": false
+            },
+            {
+              "question": "what is deflated as much as the new england patriot footballs",
+              "id": "56ddde6b9a695914005b962b",
+              "answers": [
+                {
+                  "text":"the forecast",
+                  "answer_start": 5
+                },
+                {
+                  "text":"the forecast",
+                  "answer_start": 5
+                }
+              ],
+              "is_impossible": false
+          }
+        ],
+    "context": "This forecast is deflated as much as New England Patriots footballs! I apologize. W NJ has the most to lose. Dave Curren (@DaveCurren) January 27, 2015",
+    "slang": []
+  }
+]
+},
+  {
+    "title": "quick turns",
+    "paragraphs": [
+      {
+        "qas": [
+          {
+            "question": "what is this user \"losing\"",
+            "id": "f1c214d65d1cd73b457c1dba09f90013",
+            "answers": [
+              {
+                "text":"he is losing it",
+                "answer_start": 85
+              },
+              {
+                "text":"it",
+                "answer_start": 85
+              }
+            ],
+              "is_impossible": false
+          },
+          {
+            "question": "what hashtag was used?",
+            "id": "c1b8f64f3e38a33b80a8c575f1ce902c",
+            "answers": [
+              {
+                "text":"#endangeredriver",
+                "answer_start": 4
+              },
+              {
+                "text":"#endangereddriver",
+                "answer_start": 4
+              }
+            ],
+            "is_impossible": false
+        }
+    ],
+  "context": "The #endangeredriver would be a sexy bastard in this channel if it had water. Quick turns. Narrow. (I'm losing it) John D. Sutter (@jdsutter) June 21, 2014",
+  "slang": []
+}
+]
+},
+{
+  "title": "MONSTARS BASKETBALL",
+  "paragraphs": [
+    {
+      "qas": [
+        {
+          "question": "who answered kemba's \"floater\"?",
+          "id": "c5e6eb7f974409ac4561fd1c2ba0fb58",
+          "answers": [
+            {
+              "text":"wiggins",
+              "answer_start": 34
+            },
+            {
+              "text":"wiggins",
+              "answer_start": 34
+            }
+          ],
+            "is_impossible": false
+        },
+        {
+          "question": "what is the game tied at?",
+          "id": "2a926fe0bbebd143a1cbc4d942bb3fcb",
+          "answers": [
+            {
+              "text":"the game is tied at 106",
+              "answer_start": 80
+            },
+            {
+              "text":"106-106",
+              "answer_start": 90
+            }
+          ],
+          "is_impossible": false
+      },
+      {
+        "question": "what was the score of the game?",
+        "id": "8afe79edb832cb15ffc4fd88f27fc1d4",
+        "answers": [
+          {
+            "text":"106-106",
+            "answer_start": 90
+          },
+          {
+            "text":"106-106",
+            "answer_start": 90
+          }
+        ],
+        "is_impossible": false
+    },
+    {
+      "question": "whose floater did wiggins answer?",
+      "id": "26ba00ae731854015da139515ed0d033",
+      "answers": [
+        {
+          "text":"kemba's",
+          "answer_start": 50
+        },
+        {
+          "text":"emba's floater",
+          "answer_start": 50
+        }
+      ],
+      "is_impossible": false
+  }
+  ],
+"context": "MONSTARS BASKETBALL @M0NSTARSBBALLWiggins answers Kemba's floater with a three! game tied 106-106. 8.9 to play. CHA ball!12/4/2016, 2:26:30 AM",
+"slang": []
+}
+]
+},
+{
+  "title": "cnn dog",
+  "paragraphs": [
+    {
+      "qas": [
+        {
+          "question": "who is davis directing their question to?",
+          "id": "e07a45004789abda430c952e734d1e6f",
+          "answers": [
+            {
+              "text":"cnn.",
+              "answer_start": 2
+            },
+            {
+              "text":"cnn.",
+              "answer_start": 2
+            }
+          ],
+            "is_impossible": false
+        },
+        {
+          "question": "who does davis propose eating?",
+          "id": "bfe50582de9a45aa047f155ba9ca3334",
+          "answers": [
+            {
+              "text":"a dog.",
+              "answer_start": 58
+            },
+            {
+              "text":"the dog",
+              "answer_start": 54
+            }
+          ],
+          "is_impossible": false
+      }
+  ],
+"context": ".@CNN What do I do about this dog? Eat the pizza, eat the dog, or both? Adam Davis (@amdhit) July 23, 2014",
+"slang": []
+}
+]
+},
+{
+  "title": "economy",
+  "paragraphs": [
+    {
+      "qas": [
+        {
+          "question": "what can a progressive populist do both of?",
+          "id": "e269ca25f9053ef94a2eb7d08cd7bb31",
+          "answers": [
+            {
+              "text":"pay attention to the economy and ahca",
+              "answer_start": 95
+            },
+            {
+              "text":"focus on the economy",
+              "answer_start": 84
+            }
+          ],
+            "is_impossible": false
+        }
+  ],
+"context": "And I don't think those things are in conflict, bc a progressive populist candidate focused on the economy and AHCA can do both— Dan Pfeiffer (@danpfeiffer) June 21, 2017",
+"slang": ["bc"]
+}
+]
+},
+{
+  "title": "lagalaxy",
+  "paragraphs": [
+    {
+      "qas": [
+        {
+          "question": "who went out as a champ?",
+          "id": "b2aaf332bf58113b403a28474ea1b1c0",
+          "answers": [
+            {
+              "text":"@landondonovan",
+              "answer_start": 52
+            },
+            {
+              "text":"landon donovan",
+              "answer_start": 53
+            }
+          ],
+            "is_impossible": false
+        },
+        {
+          "question": "who is tim howard congratulating?",
+          "id": "63f0b87da9aed64417956df9a1a39e89",
+          "answers": [
+            {
+              "text":"@lagalaxy",
+              "answer_start": 16
+            },
+            {
+              "text":"landon donovan",
+              "answer_start": 53
+            }
+          ],
+          "is_impossible": false
+      }
+  ],
+"context": "Congrats to the @LAGalaxy. Way to go out as a champ @landondonovan!!!— tim howard (@TimHowardGK) December 7, 2014",
+"slang": ["Congrats"]
+}
+]
+}
+
+]
+}

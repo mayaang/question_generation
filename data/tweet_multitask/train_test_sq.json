@@ -1,0 +1,226 @@
+{
+  "version": "v2.0",
+  "data": [
+    {
+      "title": "independence high school",
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "at which school were first responders on the scene for?",
+              "id": "0c871b7e5320d0816d5b2979d67c2649",
+              "answers": [
+                {
+                  "text":"independence high school",
+                  "answer_start": 59
+                }
+              ],
+                "is_impossible": false
+            }
+        ],
+    "context": "Our prayers are with the students, educators & families at Independence High School & all the first responders on the scene. #PatriotPride— Doug Ducey (@dougducey) February 12, 2016",
+    "slang": []
+  }
+]
+},
+  {
+    "title": "instagram",
+    "paragraphs": [
+      {
+        "qas": [
+          {
+            "question": "what website is linked in the tweet?",
+            "id": "02505974856f47bbe8b487c57778de1c",
+            "answers": [
+              {
+                "text":"instagram",
+                "answer_start": 0
+              }
+            ],
+              "is_impossible": true
+          }
+    ],
+  "context": "I can finally say it out loud and proud: I'm going to a galaxy far far away! Lupita Nyong'o (@Lupita_Nyongo) June 2, 2014",
+  "slang": []
+}
+]
+},
+{
+  "title": "kaine",
+  "paragraphs": [
+    {
+      "qas": [
+        {
+          "question": "when does he say kaine is able?",
+          "id": "d16eb85d141d5a87bfbc438afbcf50aa",
+          "answers": [
+            {
+              "text":"5:09 pm- jul 22, 2016.",
+              "answer_start": 0
+            }
+          ],
+            "is_impossible": true
+        }
+  ],
+"context": "KAINE IS ABLE!!!— Cory Booker (@CoryBooker) July 23, 2016",
+"slang": []
+}
+]
+},
+{
+  "title": "cassini",
+  "paragraphs": [
+    {
+      "qas": [
+        {
+          "question": "what is up to us to keep doing?",
+          "id": "e6e40c7aa9a94b6bab363812ea1918b0",
+          "answers": [
+            {
+              "text":"exploring",
+              "answer_start": 94
+            }
+          ],
+            "is_impossible": false
+        }
+  ],
+"context": "Cassini showed us the beauty of Saturn. It revealed the best in us. Now it's up to us to keep exploring. CassiniSaturn (@CassiniSaturn) September 15, 2017",
+"slang": []
+}
+]
+},
+{
+  "title": "bar",
+  "paragraphs": [
+    {
+      "qas": [
+        {
+          "question": "where can you see girls doing that?",
+          "id": "44041dedd11431be77e4a4cf5a8d0276",
+          "answers": [
+            {
+              "text":"at the bar",
+              "answer_start": 66
+            }
+          ],
+            "is_impossible": false
+        }
+  ],
+"context": "Nicki your video was just you twerking, I see girls doing that at the bar every fri&sat. 💁🏼 #TeamTaylor— ChristinaBeex3 (@Christinabeex3) July 22, 2015",
+"slang": ["twerking", "fri&sat"]
+}
+]
+},
+{
+  "title": "eric",
+  "paragraphs": [
+    {
+      "qas": [
+        {
+          "question": "who did they kil on tape",
+          "id": "937b508b14363b9372ab989e551a6945",
+          "answers": [
+            {
+              "text":"eric",
+              "answer_start": 0
+            }
+          ],
+            "is_impossible": true
+        }
+  ],
+"context": "Sean Abbott - thinking about you too, mate!— Kevin Pietersen (@KP24) November 27, 2014",
+"slang": []
+}
+]
+},
+{
+  "title": "gifts",
+  "paragraphs": [
+    {
+      "qas": [
+        {
+          "question": "kaine took hundreds of thousands of dollars in what?",
+          "id": "64816a176b245200cc9ebd480775bfe7",
+          "answers": [
+            {
+              "text":"gifts",
+              "answer_start": 67
+            }
+          ],
+            "is_impossible": false
+        }
+  ],
+"context": "Is it the same Kaine that took hundreds of thousands of dollars in gifts while Governor of Virginia and didn't get indicted while Bob M did?— Donald J. Trump (@realDonaldTrump) July 23, 2016",
+"slang": []
+}
+]
+},
+{
+  "title": "gay",
+  "paragraphs": [
+    {
+      "qas": [
+        {
+          "question": "who say he's gay because he watches rupaul's drag race?",
+          "id": "724505d2deb93dd32ee0e49662e35536",
+          "answers": [
+            {
+              "text":"andrew garfield",
+              "answer_start": 0
+            }
+          ],
+            "is_impossible": false
+        }
+  ],
+"context": "Andrew Garfield says he's gay because he watches RuPaul's Drag Race. You know, like that kid who thinks he's Asian because he watches Naruto— Justin Whang 🐙 (@HotPikachuSex) July 6, 2017",
+"slang": ["drag", "gay"]
+}
+]
+},
+{
+  "title": "contract",
+  "paragraphs": [
+    {
+      "qas": [
+        {
+          "question": "what kind of contract did he have?",
+          "id": "a75c45c89e478073dfd2a078487460a3",
+          "answers": [
+            {
+              "text":"a non-guaranteed contract",
+              "answer_start": 59
+            }
+          ],
+            "is_impossible": false
+        }
+  ],
+"context": "The Cavs have released Edy Tavares. No surprise. He was on a non-guaranteed contract. Roster stands at 19. — Jason Lloyd (@JasonLloydNBA) October 11, 2017",
+"slang": []
+}
+]
+},
+{
+  "title": "senator",
+  "paragraphs": [
+    {
+      "qas": [
+        {
+          "question": "what will senator rand paul do if he keeps obama plan?",
+          "id": "6abbd8722a0fb5a5f58a89812d6d7e55",
+          "answers": [
+            {
+              "text":"tax it",
+              "answer_start": 85
+            }
+          ],
+            "is_impossible": false
+        }
+  ],
+"context": "Shorter Obama: If you like your college savings plan, you can keep it. But I'm gonna tax the hell out of it. #sotu— Senator Rand Paul (@SenRandPaul) January 21, 2015",
+"slang": ["gonna", "the hell"]
+}
+]
+}
+
+]
+}
