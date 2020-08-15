@@ -226,6 +226,8 @@ def write_reference_questions(tweet_json, name, filename):
         logger.error("Something went wrong with the tweet qa json file %s", filename)
         exit(1)
 
+    # small fast fix
+    questions.pop()
     with iopen('tweet_' + name + '_automatic_reference.txt', 'w') as fp:
         for item in questions:
             fp.write("%s\n" % item)
