@@ -1,13 +1,4 @@
 #!/usr/bin/python3
-'''
-invoke: python tag_as_notranslate.py tx-resource-names.txt tx-sources-filenames.txt api-token --debug --manual
-TODO
-param1: tx-resources-names.txt: provide the file from tx configuration containing the resource names
-param2: tx-sources-filenames.txt: provide the file from tx configuration containing only the original source filenames
-param3: api-token: provide the developer api transifex token for auth
-param4: debug: whether or not to write debug json files
-param5: manual: whether or not to tag file by a file by waiting for a keyboard input
-'''
 from os.path import isfile
 from re import match
 import sys
