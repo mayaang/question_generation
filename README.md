@@ -10,4 +10,5 @@ This github repo is a fork of https://github.com/patil-suraj/question_generation
 3. `mv urbandict-word-defs.csv tweet-preprocessing`
 4. `cd tweet-preprocessing`
 5. `python3 convert_tweetqa_to_squad_format.py urbandict-word-defs.csv train.json dev.json test.json  --debug`
+Step 5 converts the TweetQA dataset into SQUAD format so it can be used by the pipelines provided by https://github.com/patil-suraj/question_generation
 6. open tweet_question_generation Jupyter Notebook and run

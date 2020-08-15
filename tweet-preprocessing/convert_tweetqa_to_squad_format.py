@@ -144,23 +144,6 @@ def configure_logging(logname):
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
-def check_reg(string, reg):
-    '''
-    check if the given string complies the given regular expression
-    string: string to check
-    reg: regular expression
-    return true if it is the case
-    '''
-    g = match(reg, string)
-    return g != None
-
-def manual_break():
-    prompt = input("press c + hit enter to continue: ")
-    if prompt == 'c':
-        return
-    else:
-        manual_break()
-
 def convert_and_write_to_file(tweet_json, name, urban, urban_low, debug, filename):
     '''
     for every given json from the Tweet QA dataset, convert it to squad format
@@ -344,14 +327,11 @@ if __name__ == '__main__':
 
     # whether or not to write debug json files
     parser.add_argument("--debug", action='store_true')
-    # whether or not to tag file by a file
-    parser.add_argument("--manual", action='store_true')
 
 
     args = parser.parse_args()
     configure_logging(LOG_FILE_NAME)
 
-    manual = args.manual
 
     if not isfile(args.urban_dict):
         print("please check your urban dictionary file")
@@ -416,16 +396,12 @@ if __name__ == '__main__':
     logger.debug(args.tweet_train)
     logger.debug("------------------------------------------------")
     logger.debug("------------------------------------------------")
-    if manual:
-        manual_break()
     convert_and_write_to_file(tweet_train, 'train', urban, urban_low, args.debug, args.tweet_train)
     logger.debug("------------------------------------------------")
     logger.debug("------------------------------------------------")
     logger.debug(args.tweet_dev)
     logger.debug("------------------------------------------------")
     logger.debug("------------------------------------------------")
-    if manual:
-        manual_break()
 
     convert_and_write_to_file(tweet_dev, 'dev', urban, urban_low, args.debug, args.tweet_dev)
     write_reference_questions(tweet_dev, 'dev', args.tweet_dev)
@@ -434,6 +410,4 @@ if __name__ == '__main__':
     logger.debug(args.tweet_test)
     logger.debug("------------------------------------------------")
     logger.debug("------------------------------------------------")
-    if manual:
-        manual_break()
     slangify_test_json(tweet_test, 'test', urban, urban_low)
