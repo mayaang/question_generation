@@ -249,29 +249,31 @@ def convert_to_squad(tweet_json, urban, urban_low, filename):
         q = {}
         answers = []
         is_imp = False
-        count  = 1
+        count  = 0
         context = ""
         slang = []
-        uff = 0
+        logger.debug(len(tweet_json))
+        l = len(tweet_json)
+        u = 0
         for item in tweet_json:
+            u += 1             
             if isinstance(item, dict):
-                if context != item[TWEET_QA_TWEET_KEY]:
-                    if context != "":
-                        count += 1
-                        d["title"] = "title" + str(count)
-                        p["qas"] = qas
-                        p["context"] = context
-                        #slang = find_slang(urban, context)
-                        slang = find_slang(urban_low, context.lower())
-                        p["slang"] = slang
-                        slang = []
-                        qas = []
-                        ps.append(p)
-                        p = {}
-                        d["paragraphs"] = ps
-                        ps = []
-                        data.append(d)
-                        d = {}
+                if (context != item[TWEET_QA_TWEET_KEY] and context != "") or u == l:
+                    count += 1
+                    d["title"] = "title" + str(count)
+                    p["qas"] = qas
+                    p["context"] = context
+                    #slang = find_slang(urban, context)
+                    slang = find_slang(urban_low, context.lower())
+                    p["slang"] = slang
+                    slang = []
+                    qas = []
+                    ps.append(p)
+                    p = {}
+                    d["paragraphs"] = ps
+                    ps = []
+                    data.append(d)
+                    d = {}
                 context = item[TWEET_QA_TWEET_KEY]
                 q["question"] = item[TWEET_QA_QUESTION_KEY]
                 q["id"] = item[TWEET_QA_QID_KEY]
@@ -364,18 +366,18 @@ if __name__ == '__main__':
             word = lines['word']
             urban.append(word)
             urban_low.append(word.lower())
-    with iopen("urban.txt", "wb") as fp:
-        pickle.dump(urban,fp)
+   # with iopen("urban.txt", "wb") as fp:
+   #     pickle.dump(urban,fp)
 
-    with iopen("urban_low.txt", "wb") as fp:
-        pickle.dump(urban_low,fp)
+    #with iopen("urban_low.txt", "wb") as fp:
+    #    pickle.dump(urban_low,fp)
 
   # for faster processing
-#    with iopen("urban.txt", "rb") as fp:
-#        urban = pickle.load(fp)
+  #  with iopen("urban.txt", "rb") as fp:
+   #     urban = pickle.load(fp)
 
-#    with iopen("urban_low.txt", "rb") as fp:
-#        urban_low = pickle.load(fp)
+   # with iopen("urban_low.txt", "rb") as fp:
+    #    urban_low = pickle.load(fp)
 
     with iopen(args.tweet_test, 'r') as fp:
         tweet_test = load(fp)
@@ -391,25 +393,7 @@ if __name__ == '__main__':
     validate_tweet_qa_json_schema(tweet_dev, TWEET_QA_SCHEMA, args.tweet_dev)
     validate_tweet_qa_json_schema(tweet_test, TWEET_QA_TEST_SCHEMA, args.tweet_test)
 
-
-
-    logger.debug("------------------------------------------------")
-    logger.debug("------------------------------------------------")
-    logger.debug(args.tweet_train)
-    logger.debug("------------------------------------------------")
-    logger.debug("------------------------------------------------")
     convert_and_write_to_file(tweet_train, 'train', urban, urban_low, args.debug, args.tweet_train)
-    logger.debug("------------------------------------------------")
-    logger.debug("------------------------------------------------")
-    logger.debug(args.tweet_dev)
-    logger.debug("------------------------------------------------")
-    logger.debug("------------------------------------------------")
-
     convert_and_write_to_file(tweet_dev, 'dev', urban, urban_low, args.debug, args.tweet_dev)
     write_reference_questions(tweet_dev, 'dev', args.tweet_dev)
-    logger.debug("------------------------------------------------")
-    logger.debug("------------------------------------------------")
-    logger.debug(args.tweet_test)
-    logger.debug("------------------------------------------------")
-    logger.debug("------------------------------------------------")
     slangify_test_json(tweet_test, 'test', urban, urban_low)
